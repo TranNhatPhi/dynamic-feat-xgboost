@@ -38,10 +38,12 @@ plain-XGBoost · round-robin (gốc) · fixed-1-FE · cheap-rotation (bỏ autof
 1. **RQ1 — Đa dạng FE giúp:** round-robin > plain-XGBoost (Δ+0.024, **t=+2.57**, 12/15);
    và > fixed-1-FE (thắng 11/15). ✔
 2. **RQ2 — Không cần cả cụm:** bỏ autofeat (cheap-rotation) giữ accuracy ~ngang round-robin
-   mà **giảm ~44% chi phí** (147→83). ✔
-3. **RQ3 — Chọn động KHÔNG đáng:** bandit **huề** với cheap-rotation về accuracy
-   (Δ−0.001, **t=−0.37**, 9/0/6); lợi thế cost của nó chỉ do dồn về 2 phép rẻ nhất,
-   **tái tạo được bằng rotation 2-FE hard-code** (đinh cuối `twofe_test.py`). ✔
+   mà **giảm RAM thật ~57%** (benchmark: 5.06MB→2.19MB) và thời gian nhẹ hơn. ✔
+3. **RQ3 — Chọn động KHÔNG đáng, thậm chí TỆ HƠN:** bandit **huề** accuracy với cheap-rotation
+   (Δ−0.001, **t=−0.37**, 9/0/6). Benchmark THẬT còn cho thấy bandit **KHÔNG rẻ hơn** — nó phải
+   precompute CẢ 6 FE (gồm autofeat) làm "thực đơn" → **RAM = round-robin (5.06MB), gấp ~2.3× cheap-rotation**,
+   thời gian cũng hơi hơn. cheap-rotation **thống trị hoàn toàn** bandit. (Cost-proxy cũ 55 là artifact,
+   chỉ đếm arm được chọn.) ✔
 4. **RQ4 — Cấu trúc thời gian YẾU (củng cố RQ3):** oracle gộp 12 tập cho thấy phân bố FE
    theo giai đoạn **gần như phẳng** (mỗi phép 13–36%, không phép nào áp đảo). Chỉ có một
    xu hướng đơn điệu nhẹ: autofeat giảm dần theo bước (22%→18%→13%). Quy luật "khử nhiễu
