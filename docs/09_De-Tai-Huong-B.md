@@ -42,8 +42,11 @@ plain-XGBoost · round-robin (gốc) · fixed-1-FE · cheap-rotation (bỏ autof
 3. **RQ3 — Chọn động KHÔNG đáng:** bandit **huề** với cheap-rotation về accuracy
    (Δ−0.001, **t=−0.37**, 9/0/6); lợi thế cost của nó chỉ do dồn về 2 phép rẻ nhất,
    **tái tạo được bằng rotation 2-FE hard-code** (đinh cuối `twofe_test.py`). ✔
-4. **RQ4 — Biến thiên có, khai thác không:** oracle cho thấy FE tối ưu đổi theo bước
-   (khử nhiễu sớm → giữ nguyên muộn), **nhưng tín hiệu gradient quá nhiễu để học online.** ✔
+4. **RQ4 — Cấu trúc thời gian YẾU (củng cố RQ3):** oracle gộp 12 tập cho thấy phân bố FE
+   theo giai đoạn **gần như phẳng** (mỗi phép 13–36%, không phép nào áp đảo). Chỉ có một
+   xu hướng đơn điệu nhẹ: autofeat giảm dần theo bước (22%→18%→13%). Quy luật "khử nhiễu
+   sớm → giữ nguyên muộn" **chỉ đúng cho hill-valley, KHÔNG tổng quát.** → Cấu trúc thời gian
+   yếu + tín hiệu per-step nhiễu **giải thích vì sao chọn động không có lợi** (RQ3). ✔
 
 ## Đóng góp
 
