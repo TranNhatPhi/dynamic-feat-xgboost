@@ -1,0 +1,16 @@
+dataset,plain_xgb_acc,round_robin_acc,round_robin_acc_std,bandit_acc,bandit_acc_std,round_robin_cost,bandit_cost,cost_cut_pct,home_ground
+hill-valley,0.5297,0.6654,0.0164,0.6861,0.0102,148.1,60.1,59.4,True
+statlog-image,0.9814,0.9822,0.0059,0.9788,0.0051,147.0,58.1,60.5,False
+molec-biol-promoter,0.9038,0.9231,0.0608,0.9135,0.05,142.6,32.2,77.4,False
+monks-3,0.5278,0.5278,0.0,0.5382,0.0167,145.3,50.2,65.4,True
+vertebral-column-3clases,0.8312,0.8279,0.0372,0.8182,0.0243,146.0,52.9,63.8,False
+arrhythmia,0.7588,0.7743,0.016,0.7699,0.0063,147.0,56.5,61.6,False
+libras,0.7292,0.8125,0.0286,0.809,0.0248,148.4,64.1,56.8,False
+plant-shape,0.4945,0.55,0.0361,0.5656,0.0266,148.9,65.8,55.8,True
+plant-margin,0.6812,0.7234,0.0299,0.7281,0.0397,147.3,59.3,59.8,True
+plant-texture,0.7094,0.7477,0.0181,0.743,0.0248,147.2,58.8,60.1,False
+semeion,0.9227,0.9253,0.016,0.9259,0.014,146.2,53.3,63.6,True
+musk-2,0.985,0.9833,0.0021,0.9791,0.0024,149.1,66.4,55.5,False
+pittsburg-bridges-MATERIAL,0.8864,0.8864,0.0508,0.875,0.0495,146.1,47.3,67.7,False
+pittsburg-bridges-TYPE,0.619,0.6548,0.0704,0.6429,0.0532,146.1,49.1,66.4,False
+conn-bench-sonar-mines-rocks,0.7885,0.7837,0.0614,0.7596,0.0441,145.8,50.8,65.1,False

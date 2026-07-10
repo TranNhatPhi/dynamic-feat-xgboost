@@ -1,0 +1,22 @@
+# Môi trường Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Dữ liệu thô (tải từ github.com/lingping-fuzzy/UCI-data-correct-split — xem docs/01)
+data/raw/
+*.zip
+
+# Code gốc của tác giả khác (chỉ tham khảo, KHÔNG redistribute — xem link trong README)
+reference_code/
+
+# PDF bài báo có bản quyền (Elsevier)
+paper/
+
+# Cấu hình cục bộ / hệ thống
+.claude/
+.DS_Store
+
+# Log tee tạm (giữ CSV kết quả, bỏ log thô)
+results/*_log.txt

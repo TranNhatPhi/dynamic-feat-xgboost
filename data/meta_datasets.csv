@@ -1,0 +1,122 @@
+dataset,instances,labels_classes,features,Remark,train size,vali size,test size
+abalone,4177,3,8,,2503,630,1044
+acute-inflammation,120,2,6,,74,16,30
+acute-nephritis,120,2,6,,73,17,30
+adult,48842,2,14,,25999,6562,16281
+annealing,898,5,31,new split,574,144,180
+arrhythmia,452,13,262,,260,79,113
+audiology-std,196,18,59,,140,31,25
+balance-scale,625,3,4,new split,400,100,125
+balloons,16,2,4,new split,9,3,4
+bank,4521,2,16,,2690,701,1130
+blood,748,2,4,,439,122,187
+breast-cancer,286,2,9,,181,34,71
+breast-cancer-wisc,699,2,9,,406,118,175
+breast-cancer-wisc-diag,569,2,30,,347,80,142
+breast-cancer-wisc-prog,198,2,33,,127,22,49
+breast-tissue,106,6,9,new split,67,17,22
+car,1728,4,6,,1026,270,432
+cardiotocography-10clases,2126,10,21,,1276,319,531
+cardiotocography-3clases,2126,3,21,,1272,323,531
+chess-krvk,28056,18,6,,16816,4226,7014
+chess-krvkp,3196,2,36,,1933,464,799
+congressional-voting,435,2,16,,269,57,109
+conn-bench-sonar-mines-rocks,208,2,60,,123,33,52
+conn-bench-vowel-deterding,990,11,11,,427,101,462
+connect-4,67557,2,42,,40417,10251,16889
+contrac,1473,3,9,,894,211,368
+credit-approval,690,2,15,,418,100,172
+cylinder-bands,512,2,35,,302,82,128
+dermatology,366,6,34,new split,233,59,74
+echocardiogram,131,2,10,,78,20,33
+ecoli,336,8,7,,198,54,84
+energy-y1,768,3,8,,472,104,192
+energy-y2,768,3,8,,460,116,192
+fertility,100,2,9,new split,64,16,20
+flags,194,8,28,new split,124,31,39
+glass,214,6,9,new split,136,35,43
+haberman-survival,306,2,3,,184,46,76
+hayes-roth,160,3,3,new split,102,26,32
+heart-cleveland,303,5,13,new split,193,49,61
+heart-hungarian,294,2,12,,187,34,73
+heart-switzerland,123,5,12,new split,78,20,25
+heart-va,200,5,12,new split,128,32,40
+hepatitis,155,2,19,,93,23,39
+hill-valley,1212,2,100,,480,126,606
+horse-colic,368,2,25,,234,66,68
+ilpd-indian-liver,583,2,9,,351,86,146
+image-segmentation,2310,7,18,,160,50,2100
+ionosphere,351,2,33,,216,47,88
+iris,150,3,4,,92,21,37
+led-display,1000,10,7,,594,156,250
+lenses,24,3,4,new split,15,4,5
+letter,20000,26,16,,11941,3059,5000
+libras,360,15,90,new split,230,58,72
+low-res-spect,531,9,100,,316,82,133
+lung-cancer,32,3,56,new split,20,5,7
+lymphography,148,4,18,,91,20,37
+magic,19020,2,10,,11412,2853,4755
+mammographic,961,2,5,,575,146,240
+miniboone,130064,2,50,,77904,19644,32516
+molec-biol-promoter,106,2,57,,64,16,26
+molec-biol-splice,3190,3,60,,1913,480,797
+monks-1,556,2,6,,89,35,432
+monks-2,601,2,6,,139,30,432
+monks-3,554,2,6,,90,32,432
+mushroom,8124,2,21,,4889,1204,2031
+musk-1,476,2,166,,281,76,119
+musk-2,6598,2,166,,3998,951,1649
+nursery,12960,5,8,,7802,1918,3240
+oocytes_merluccius_nucleus_4d,1022,2,41,,606,161,255
+oocytes_merluccius_states_2f,1022,3,25,,632,135,255
+oocytes_trisopterus_nucleus_2f,912,2,25,,573,111,228
+oocytes_trisopterus_states_5b,912,3,32,new split,583,146,183
+optical,5620,10,62,,3060,763,1797
+ozone,2536,2,72,,1543,359,634
+page-blocks,5473,5,10,new split,3502,876,1095
+parkinsons,195,2,22,,114,32,49
+pendigits,10992,10,16,,5996,1498,3498
+pima,768,2,8,,459,117,192
+pittsburg-bridges-MATERIAL,106,3,7,new split,67,17,22
+pittsburg-bridges-REL-L,103,3,7,new split,65,17,21
+pittsburg-bridges-SPAN,92,3,7,new split,58,15,19
+pittsburg-bridges-T-OR-D,102,2,7,new split,64,17,21
+pittsburg-bridges-TYPE,105,6,7,new split,67,17,21
+planning,182,2,12,,110,27,45
+plant-margin,1600,100,64,new split,1024,256,320
+plant-shape,1600,100,64,new split,1024,256,320
+plant-texture,1599,100,64,new split,1023,256,320
+post-operative,90,3,8,,55,13,22
+primary-tumor,330,15,17,new split,211,53,66
+ringnorm,7400,2,20,,4423,1127,1850
+seeds,210,3,7,,128,30,52
+semeion,1593,10,256,,933,262,398
+soybean,683,18,35,new split,436,110,137
+spambase,4601,2,57,,2726,725,1150
+spect,265,2,22,,69,10,186
+spectf,267,2,44,,59,21,187
+statlog-australian-credit,690,2,14,,412,106,172
+statlog-german-credit,1000,2,24,,606,144,250
+statlog-heart,270,2,13,,165,38,67
+statlog-image,2310,7,18,,1371,362,577
+statlog-landsat,6435,6,36,,3533,902,2000
+statlog-shuttle,58000,7,9,new split,37120,9280,11600
+statlog-vehicle,846,4,18,,514,121,211
+steel-plates,1941,7,27,,1151,305,485
+synthetic-control,600,6,60,,368,82,150
+teaching,151,3,5,,91,22,38
+thyroid,7200,3,21,,2993,779,3428
+tic-tac-toe,958,2,9,,573,146,239
+titanic,2201,2,3,,1296,355,550
+trains,10,2,29,new split,6,2,2
+twonorm,7400,2,20,,4461,1089,1850
+vertebral-column-2clases,310,2,6,,174,59,77
+vertebral-column-3clases,310,3,6,,189,44,77
+wall-following,5456,4,24,,3272,820,1364
+waveform,5000,3,21,,2992,758,1250
+waveform-noise,5000,3,40,,2979,771,1250
+wine,178,3,13,,100,34,44
+wine-quality-red,1599,6,11,new split,1023,256,320
+wine-quality-white,4898,7,11,new split,3134,784,980
+yeast,1484,10,8,new split,949,238,297
+zoo,101,7,16,new split,64,16,21

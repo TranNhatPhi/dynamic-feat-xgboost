@@ -1,0 +1,13 @@
+# Môi trường cho Dynamic Feat-XGBoost
+# Đã kiểm chứng chạy trên: Apple M4 (arm64) + Python 3.9, và tương thích Linux x86_64.
+numpy>=1.24
+scikit-learn>=1.3
+xgboost>=2.0
+optuna>=3.4          # tối ưu siêu tham số (giống bài gốc)
+pandas>=2.0
+autofeat>=2.1        # sinh đặc trưng tự động (LƯU Ý: verify cài được trên remote trước)
+pyyaml>=6.0          # đọc config params.UCIdata.yml của tác giả
+psutil>=5.9          # đo peak memory khi benchmark
+
+# Chỉ cần nếu chạy XGBoost trên GPU CUDA (H100/RTX). KHÔNG cần cho CPU.
+# xgboost bản pip đã kèm hỗ trợ CUDA; chỉ cần đặt device='cuda' khi fit.
