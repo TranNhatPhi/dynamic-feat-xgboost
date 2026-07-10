@@ -1,9 +1,8 @@
 # 06 — Thuyết minh đề tài
 
-> ⚠️ **ĐANG ĐỔI HƯỚNG (chờ thầy Vinh duyệt).** Thực nghiệm cho thấy contextual bandit KHÔNG
-> thắng baseline đơn giản (Fixed-ht_svd) → luận điểm "chọn động bằng bandit" không đứng vững.
-> Luận điểm mới = bài nghiên cứu thực nghiệm trung thực. Xem [08_Bao-Cao-Doi-Huong.md](08_Bao-Cao-Doi-Huong.md).
-> Đề tài dưới đây là bản CŨ, giữ lại để tham chiếu.
+> ❌ **ĐỀ TÀI NÀY ĐÃ BỊ THAY THẾ (SUPERSEDED).** Thực nghiệm 15 tập chứng minh contextual
+> bandit không hơn baseline đơn giản (cheap-rotation) → đã chốt **Hướng B (empirical study)**.
+> **Đề tài chính thức mới: [09_De-Tai-Huong-B.md](09_De-Tai-Huong-B.md).** Bản dưới giữ để lưu vết.
 
 ---
 
